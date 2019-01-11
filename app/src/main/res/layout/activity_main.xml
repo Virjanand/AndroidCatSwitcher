@@ -7,22 +7,24 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/catImageView"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:contentDescription="Cat"
+        android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/cat1" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/catSwitcherButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginRight="16dp"
-        android:layout_marginBottom="16dp"
+        android:layout_margin="10dp"
         android:onClick="switchCat"
         android:text="Switch"
         app:layout_constraintBottom_toBottomOf="parent"

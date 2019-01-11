@@ -2,7 +2,6 @@ package com.virjanand.catswitcher;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 
@@ -12,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void switchCat(View view) {
 
-        ImageView image = (ImageView)findViewById(R.id.imageView);
+        ImageView image = (ImageView)findViewById(R.id.catImageView);
 
         if (imageNr == 1) {
             image.setImageResource(R.drawable.cat2);
